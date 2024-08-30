@@ -1,22 +1,22 @@
 <nav class="navbar navbar-expand-xl navbar-light text-center py-3">
-    <div class="container" style="display:block">
-      <a class="navbar-brand" href="index.html">
-        <img loading="preload" decoding="async" class="img-fluid" width="130" src="../images/wer/logo_wer2024-h.png" alt="WER at Buenos Aires, Argentina">
-      </a>
-      <!-- Menú -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto mb-1 mb-lg-0">
-          <li class="nav-item aling-le"><a class="nav-link" href="index.html">Home</a></li>
-        </ul>
-        <div id="change-lang"></div>&emsp;
-      </div>
+  <div class="container" style="display:block">
+    <a class="navbar-brand" href="index.html">
+      <img loading="preload" decoding="async" class="img-fluid" width="130" src="../images/wer/logo_wer2024-h.png" alt="WER at Buenos Aires, Argentina">
+    </a>
+    <!-- Menú -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-1 mb-lg-0">
+        <li class="nav-item aling-le"><a class="nav-link" href="index.html">Home</a></li>
+      </ul>
+      <div id="change-lang"></div>&emsp;
     </div>
-  </nav>
-  <script>
-    const currentURL = window.location.pathname;
-    const pt_url = currentURL.replace('/en/','/pt/');
-    const es_url = currentURL.replace('/en/','/es/');
-    document.getElementById('change-lang').innerHTML = '<a class="text-primary" href="' + es_url + '">ES</a><br><a class="text-primary" href="' + pt_url + '">PT</a><br/>'
-  </script>
+  </div>
+</nav>
+<script>
+  const currentURL = window.location.pathname;
+  const pt_url = currentURL.replace('/en/','/pt/');
+  const es_url = currentURL.replace('/en/','/es/');
+  document.getElementById('change-lang').innerHTML = '<a class="text-primary" href="' + es_url + '">ES</a><br><a class="text-primary" href="' + pt_url + '">PT</a><br/>'
+</script>
