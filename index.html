@@ -1,1 +1,72 @@
-wer 2025
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="refresh" content="0;url=/wer2024/es/index.html">
+  <title>Redirección</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      padding: 10px 0px 0px 10px;
+      background-color: #f4f4f4;
+      font-family: 'Arial', sans-serif;
+    }
+
+    #logo {
+      width: 80%;
+      max-width: 300px;
+      height: auto;
+      margin-top: 10px;
+    }
+
+    .card {
+      width: 80%;
+      max-width: 300px;
+      padding: 20px;
+      text-align: center;
+      margin: 10px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+    }
+
+    p {
+      margin-top: 10px;
+      font-size: 18px;
+      text-align: center;
+    }
+  </style>
+  <script>
+    function redirectToPage(language) {
+      var baseUrl = "/wer2025/";
+      var pageUrl = baseUrl + language + "/index.html";
+      window.location.href = pageUrl;
+    }
+  </script>
+</head>
+<body>
+<img id="logo" src="images/wer/logo_wer2024-h.png" alt="Logo de la empresa">
+
+<p>Si no fue redirigido automáticamente, seleccione su idioma:</p>
+
+<div class="card" onclick="redirectToPage('es')">
+  <img src="images/wer/argentina.png" alt="Bandera de Argentina" style="width: 40%; height: auto;">
+  <p style="margin-top: 10px; font-size: 16px;">Español</p>
+</div>
+<div class="card" onclick="redirectToPage('pt')">
+  <img src="images/wer/bandera-de-brasil.png" alt="Bandera de Brasil" style="width: 40%; height: auto;">
+  <p style="margin-top: 10px; font-size: 16px;">Portugues</p>
+</div>
+<div class="card" onclick="redirectToPage('en')">
+  <img src="images/wer/estados-unidos-de-america.png" alt="Bandera de USA" style="width: 40%; height: auto;">
+  <p style="margin-top: 10px; font-size: 16px;">Ingles</p>
+</div>
+</body>
+</html>
