@@ -10121,6 +10121,7 @@ textarea.form-control {
 img.profile-img {
   border-radius: 50%;
   width: 110px;
+  height: 110px;
 }
 
 .badge {
