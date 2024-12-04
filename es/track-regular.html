@@ -28,6 +28,9 @@
 
   <!-- # Main Style Sheet -->
   <link rel="stylesheet" href="../css/style.css">
+
+  <!-- # Show Navbar & Footer plugin -->
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
 <body>
@@ -54,7 +57,7 @@
             </h2>
 
             <div class="content">
-              <h3 id="heading-1" class="text-success">Fechas claves</h3>
+              <h3 id="heading-1" class="text-success">Fechas importantes</h3>
               <ul>
                 <li>Envío de abstract: <b>10 de marzo de 2025</b></li>
                 <li>Envío de artículo: <b>17 de marzo de 2025</b></li>
@@ -62,8 +65,8 @@
                 <li>Envío de versión Camera-ready: <b>31 de mayo de 2025</b></li>
               </ul>
 
-              <h3 id="heading-1" class="text-success">Tópicos de interés </h3>
-              <p>Los tópicos de interés no están listados en forma exhaustiva:</p>
+              <h3 id="heading-1" class="text-success">Temas de interés </h3>
+              <p>Los temas de interés son los siguientes (la lista no es exhaustiva):</p>
               <ul>
                 <li>Relevamiento, análisis, documentación, administración, rastreabilidad, priorización, verificación y negociación de requerimientos</li>
                 <li>Educación y entrenamiento en ingeniería de requerimientos</li>
@@ -81,27 +84,24 @@
               <p><span class="fw-bold text-secondary">Está permitido (con aclaración explícita en los agradecimientos):</span> Usar herramientas de IA generativa para crear partes del contenido, indicando en los agradecimientos del artículo qué parte fue generada con IA y qué herramienta se utilizó para tal fin. Es responsabilidad de los autores verificar los términos de uso de la herramienta utilizada. Por ejemplo, incluir en los agradecimientos: "Se utilizó ChatGPT para generar el primer párrafo de la Sección 3 y para generar la Tabla 3.2".</p>
               <p><span class="fw-bold text-secondary">EStá permitido (sin necesidad de mencionarlo):</span> (1) Usar IA o tecnologías asistidas por IA para mejorar la calidad de las imágenes en relación con el contraste o la claridad; y (2) Utilizar herramientas de IA generativa para editar y mejorar la calidad de un texto escrito por los autores (similar al uso de un asistente como Grammarly para mejorar la ortografía, gramática, puntuación y claridad).</p>
 
-              <h3 id="heading-1" class="text-success">Orientación para el envío
-              </h3>
-
+              <h3 id="heading-1" class="text-success">Instrucciones para el envío de artículos</h3>
               <p>Todos los artículos deben ser enviados en formato PDF por medio de Easychair considerando el formato <b><a href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines"> LNCS</a></b>. Los envíos deben ser realizados en Portugues, Español o Inglés.</p>
               <p>Los envíos deben presentar resultados originales de investigación, enseñanza o industria sobre cualquier aspecto de la ingeniería de requerimientos. El proceso de selección considerará aplicabilidad, relevancia, originalidad y claridad a la disciplina.</p>
-              <p>El WER-RT utiliza un proceso de revisión <b>double-blind</b>. Todos los envios (y material suplementario) deben estar adecuadamente anonimizados de acuerdo a las siguientes guias: Los nombres y afiliaciones de los autores no deben estar visibles en el paper. Los agradecimientos deben ser anonimizados o eliminados para el proceso de revisión. Citas propias deben estar en tercera persona. Por ejemplo, “como se muestra en nuestro previo estudio [2]” no es permitido, mientras que “como se muestra en Perez et al. [2]” es aceptable. En este caso, la cita [2] no rompe la anonimización. Logos y otras afiliaciones en imagenes deben ser blurreados. <span class="text-danger">Por favor seguir estas guias para evitar que el envío sea rechazado sin revisión.</span></p>>
+              <p>El WER-RT utiliza un proceso de revisión <b>double-blind</b>. Todos los envíos (y material suplementario) deben estar adecuadamente anonimizados de acuerdo a las siguientes guias: Los nombres y afiliaciones de los autores no deben estar visibles en el artículo. Los agradecimientos deben ser anonimizados o eliminados para el proceso de revisión. Citas propias deben estar en tercera persona. Por ejemplo, “como se muestra en nuestro previo estudio [2]” no es permitido, mientras que “como se muestra en Perez et al. [2]” es aceptable. En este caso, la cita [2] no rompe la anonimización. Logos y otras afiliaciones en imagenes deben ser blurreados. <span class="text-danger">Por favor seguir estas guias para evitar que el envío sea rechazado sin revisión.</span></p>
               <p>Los trabajos completos no deben exceder las 14 páginas, con formato de acuerdo al formato de página de <b><a href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines">LNCS</a></b>.</p>
               <p>Cualquier artículo que exceda el límite de páginas, no esté dentro del alcance de la conferencia, o no respete las guias de formato será rechazado sin revisión.</p>
-              <p>Todas los envios serán revisado por al menos 3 miembros del comite de programa.</p>
-              <p>Todos los artículos aceptados serán publicados Open Access en el repositorio <a href="http://wer.inf.puc-rio.br/WERpapers/">WERpapers</a>.</p>
-            <p><a class="btn btn-primary mt-3" href="https://easychair.org/conferences/?conf=wer2025">Envio</a>
-              </p>
+              <p>Todas los envíos serán revisado por al menos 3 miembros del comite de programa.</p>
+              <p>Todos los artículos aceptados serán publicados Open Access en el repositorio <a href="http://wer.inf.puc-rio.br/WERs/">WERs</a>.</p>
+            <p><a class="btn btn-primary mt-3" href="https://easychair.org/conferences/?conf=wer2025">Enviar</a></p>
 
               <h3 id="heading-1" class="text-success">Organización</h3>
 
               <ul>
                 <li>
-                  <h4 id="heading-4">Chairs del Track</h4>
+                  <h4 id="heading-4">Coordinadores del Track</h4>
                   <ul>
                     <li><b>Marcela Ridao</b> &#8212; Universidad Nacional del Centro de la Provincia de Buenos Aires, Argentina</li>
-                    <li><b>Márcia Lucena</b> &#8212; Universidade Federal do Rio Grande do Norte, Brazil</li>
+                    <li><b>Márcia Lucena</b> &#8212; Universidade Federal do Rio Grande do Norte, Brasil</li>
                     <li><b>Rodrigo Santos</b> &#8212; Universidade Federal do Estado do Rio de Janeiro (UNIRIO), Brasil</li>
                   </ul>
                 </li>
