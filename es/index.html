@@ -29,23 +29,22 @@
   <!-- # Main Style Sheet -->
   <link rel="stylesheet" href="../css/style.css">
 
+  <!-- # Show Navbar & Footer plugin -->
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
 <body>
-  <!-- Navigation -->
-  <header class="navigation bg-tertiary">
-    <div id="navbar"></div>
+<!-- Navigation -->
+<header class="navigation bg-tertiary">
+  <div id="navbar"></div>
 
-    <script>
-      $(function(){
-        $('#navbar').load('navbar.html')
-      })
-
-      document.getElementById('change-lang').innerHTML = 'Chau'
-    </script>
-  </header>
-  <!-- /Navigation -->
+  <script>
+    $(function(){
+      $('#navbar').load('navbar.html')
+    })
+  </script>
+</header>
+<!-- /Navigation -->
 
 
 <section class="bg-tertiary position-relative overflow-hidden">
@@ -226,37 +225,12 @@
 </section>
 
 <!-- footer -->
-<footer>
-  <div class="container">
-    <div class="row justify-content-between">
-      <div class="row align-items-center mt-5 text-center text-md-start">
-        <div class="col-lg-4">
-          <a href="index.html">
-            <img loading="prelaod" decoding="async" class="img-fluid" width="160" src="../images/index/WER2025-horizontal-color.png"
-                 alt="Wallet">
-          </a>
-        </div>
-        <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
-          <ul class="list-unstyled list-inline mb-0 text-lg-center">
-            <li class="list-inline-item me-4 text-black">
-              <h5><a class="text-primary" href="mailto:organizacao.wer@gmail.com">Contactenos:
-                organizacao.wer@gmail.com</a></h5>
-            </li>
-          </ul>
-        </div>
-        <div class="col-lg-4 col-md-6 text-md-end mt-4 mt-md-0">
-          <ul class="list-unstyled list-inline mb-0 social-icons">
-            <li class="list-inline-item me-3"><a title="Explorer Twitter Profile" class="text-black"
-                                                 href="https://twitter.com/wer_2024_" target="_blank"><i class="fab fa-twitter"></i></a>
-            </li>
-            <li class="list-inline-item me-3"><a title="Explorer LinkedIn Profile" class="text-black"
-                                                 href="https://www.linkedin.com/in/wer2024/" target="_blank"><i class="fab fa-linkedin"></i></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-</footer>
+<div id="footer"></div>
+    <script>
+      $(function(){
+        $('#footer').load('footer.html')
+      })
+    </script>
 <!-- footer -->
 
 

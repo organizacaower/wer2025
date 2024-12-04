@@ -31,64 +31,17 @@
 </head>
 
 <body>
+<!-- Navigation -->
+<header class="navigation bg-tertiary">
+  <div id="navbar"></div>
 
-  <!-- navigation -->
-  <header class="navigation bg-tertiary">
-    <nav class="navbar navbar-expand-xl navbar-light text-center py-3">
-      <div class="container" style="display:block">
-        <a class="navbar-brand" href="index.html">
-          <img loading="preload" decoding="async" class="img-fluid" width="130" src="../images/wer/logo_wer2024-h.png"
-               alt="Wer en Buenos Aires">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span
-                class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto mb-1 mb-lg-0">
-            <li class="nav-item aling-le"> <a class="nav-link" href="index.html">Inicio</a>
-            </li>
-            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-                                              role="button" data-bs-toggle="dropdown" aria-expanded="false">Llamadas</a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item " href="track-regular.html">Regular Research Track (WER-RT)</a></li>
-                <li><a class="dropdown-item " href="track-requirements-tools.html">Software Requirements Tools Track
-                  (WER-SRTT)</a>
-                </li>
-                <li><a class="dropdown-item " href="track-industry.html">Industry Track
-                  (WER-IT)</a>
-                </li>
-                <li><a class="dropdown-item " href="track-masters-doctoral.html">Master's and Doctoral Track
-                  (WER-MDT)</a>
-                </li>
-                <li><a class="dropdown-item " href="track-tutorial.html">Tutorial Track (WER-TT)</a>
-                </li>
-                <li><a class="dropdown-item " href="track-journal-first.html">Journal First Track (WER-JFT)</a>
-                </li>
-                <li><a class="dropdown-item " href="track-students.html">Student Track (WER-ST)</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item"> <a class="nav-link" href="artigos-aceitos.html">Papers aceptados</a></li>
-            <li class="nav-item "> <a class="nav-link" href="programacao.html">Programación</a>
-            <li class="nav-item "> <a class="nav-link" href="../es/palestrantes.html">Conferencistas</a>
-            </li>
-            <li class="nav-item "> <a class="nav-link" href="organizacao.html">Organización</a>
-            </li>
-            <li class="nav-item "> <a class="nav-link" href="patrocinadores.html">Auspicios y Sponsor</a></li>
-            <li class="nav-item "> <a class="nav-link" href="../es/buenos-aires.html">Buenos Aires</a></li>
-          </ul>
-          <a class="text-primary" href="../en/index.html">EN</a> &nbsp; | &nbsp;
-          <a class="text-primary"  href="../pt/index.html">PT</a>&emsp;<br/>
-          <a  href="inscricao.html" class="btn btn-outline-primary">Inscripción</a>&emsp;
-          <!--
-            &nbsp;
-            <a href="certificates/" class="btn btn-danger">Certificados</a> -->
-        </div>
-      </div>
-    </nav>
-  </header>
-  <!-- /navigation -->
+  <script>
+    $(function(){
+      $('#navbar').load('navbar.html')
+    })
+  </script>
+</header>
+<!-- /Navigation -->
 
 
   <div class="section">
@@ -102,10 +55,10 @@
             <div class="content">
               <h3 id="heading-1" class="text-success">Fechas importantes</h3>
               <ul>
-                <li>Presentación de título y resumen: <s>25/03/2024</s> <b>04/04/2024</b> &nbsp;<span style="background-color: red; color: azure;"> &nbsp;Hard deadline &nbsp;</span></li>
-                <li>Presentación del artículo: <s>01/04/2024</s> <b>04/04/2024</b> &nbsp;<span style="background-color: red; color: azure;"> &nbsp;Hard deadline &nbsp;</span></li>
-                <li>Notificación: <b>29/04/2024</b></li>
-                <li>Versión final: <s>13/05/2024</s><s>20/05/2024</s><b>31/05/2024</b>&nbsp;<span style="background-color: red; color: azure;"> &nbsp;Nuevo! &nbsp;</span></li>
+                <li>Envío de abstract: <b>31 de marzo de 2025</b></li>
+                <li>Envío de artículo: <b>7 de abril de 2025</b></li>
+                <li>Notificación: <b>4 de julio de 2025</b></li>
+                <li>Envío de versión Camera-ready: <b>30 de julio de 2025</b></li>
               </ul>
 
               <h3 id="heading-1" class="text-success">Temas de interés</h3>
@@ -171,39 +124,14 @@
       </div>
     </div>
 
-    <!-- footer -->
-    <footer>
-      <div class="container">
-        <div class="row justify-content-between">
-          <div class="row align-items-center mt-5 text-center text-md-start">
-            <div class="col-lg-4">
-              <a href="index.html">
-                <img loading="prelaod" decoding="async" class="img-fluid" width="160" src="../images/wer/logo_wer2024-h.png"
-                  alt="Wallet">
-              </a>
-            </div>
-            <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
-              <ul class="list-unstyled list-inline mb-0 text-lg-center">
-                <li class="list-inline-item me-4 text-black">
-                  <h5><a href="mailto:organizacao.wer@gmail.com">Contacta con nosotros:
-                      organizacao.wer@gmail.com</a></h5>
-                </li>
-              </ul>
-            </div>
-            <div class="col-lg-4 col-md-6 text-md-end mt-4 mt-md-0">
-              <ul class="list-unstyled list-inline mb-0 social-icons">
-                <li class="list-inline-item me-3"><a title="Explorer Twitter Profile" class="text-black"
-                    href="https://twitter.com/wer_2024_" target="_blank"><i class="fab fa-twitter"></i></a>
-                </li>
-                <li class="list-inline-item me-3"><a title="Explorer LinkedIn Profile" class="text-black"
-                    href="https://www.linkedin.com/in/wer2024/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-    </footer>
-    <!-- footer -->
+<!-- footer -->
+<div id="footer"></div>
+    <script>
+      $(function(){
+        $('#footer').load('footer.html')
+      })
+    </script>
+<!-- footer -->
 
 
     <!-- # JS Plugins -->
