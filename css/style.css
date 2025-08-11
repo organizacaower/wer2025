@@ -10144,3 +10144,6 @@ img.profile-img {
 .important-button:hover{
   color: black;
 }
+p {
+    text-align: justify;  /* justificado */
+  }
